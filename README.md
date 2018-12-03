@@ -27,9 +27,10 @@ Currently, the initial version of IoTcube API can receive vulnerability informat
    + **cvss** - The CVSS value of the vulnerability.
    + **file** - The file path where the vulnerability exists.
    + **funcid** - The function number in the file (*See hmark*).
-   + **diff** - Patch information for this vulnerability.
+   + **diff** - All commit information for this vulnerability.
+   + **patch** - Patch information of the vulnerable code (*'Dec. 2018 ADDED by Seunghoon Woo'*).
   
-Result (JSON)
+Result (JSON) (*'Dec. 2018 MODIFIED by Seunghoon Woo'*).
 -------------
 ```
 [
@@ -47,6 +48,7 @@ Result (JSON)
     "file"  : "Path/to/file",
     "funcid": "5",
     "diff"  : "https://iotcube.net/whitebox/diff/.../CVE-2018-0000_....diff", 
+    "patch" : "https://iotcube.net/whitebox/diff/.../CVE-2018-0000_....patch" 
   }, … ,
   {
     … 
