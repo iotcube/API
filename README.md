@@ -32,7 +32,7 @@ Currently, the initial version of IoTcube API can receive vulnerability informat
   
 Result (JSON)
 -------------
-(*'Dec. 2018 MODIFIED by Seunghoon Woo'*).
+(*'Dec. 2018 MODIFIED by Seunghoon Woo'* - ADDED "patch").
 ```
 [
   {
