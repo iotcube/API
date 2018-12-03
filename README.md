@@ -30,8 +30,9 @@ Currently, the initial version of IoTcube API can receive vulnerability informat
    + **diff** - All commit information for this vulnerability.
    + **patch** - Patch information of the vulnerable code (*'Dec. 2018 ADDED by Seunghoon Woo'*).
   
-Result (JSON) (*'Dec. 2018 MODIFIED by Seunghoon Woo'*).
+Result (JSON)
 -------------
+(*'Dec. 2018 MODIFIED by Seunghoon Woo'*).
 ```
 [
   {
