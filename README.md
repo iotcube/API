@@ -103,6 +103,5 @@ See *'example'* directory.
 About
 -----
 This document and code is authored and maintained by Seunghoon Woo (Whitebox) and Gangmo Seong (Blackbox).
->seunghoonwoo@<span></span>korea.ac.kr
-
->geldkang@<span></span>naver.com
+>seunghoonwoo@<span></span>korea.ac.kr  
+>geldkang@<span></span>korea.ac.kr
