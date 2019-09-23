@@ -79,12 +79,17 @@ Currently, the initial version of IoTcube API can receive vulnerability informat
 ---
 ```
 {
-	"Version":"1.0.0",
-	"Elapsed_Time":"272",
-	"Target_Binary":"gif2png @@",
-	"Trials":"9563",
-	"Crashes": [
-		{ "no":"1", "URI":"2019-09-16-18:29:22_0x605cadf1_CVE-2011-2131_photoshop", "Origin_PoC":"CVE-2011-2131" }
+	"Version"        : "1.0.0",
+	"Elapsed_Time"   : "272",
+	"Target_Binary"  : "gif2png @@",
+	"Trials"         : "9563",
+	"Crashes"        : 
+	[
+		{ 
+		   "no"        : "1", 
+		   "URI"       : "2019-09-16-18:29:22_0x605cadf1_CVE-2011-2131_photoshop", 
+		   "Origin_PoC":"CVE-2011-2131" 
+		}
 	],
 	"Initial_Crashes": [
 
@@ -97,6 +102,7 @@ See *'example'* directory.
 
 About
 -----
-This document and code is authored and maintained by Seunghoon Woo and Gangmo Seong.
+This document and code is authored and maintained by Seunghoon Woo (Whitebox) and Gangmo Seong (Blackbox).
 >seunghoonwoo@<span></span>korea.ac.kr
+
 >geldkang@<span></span>naver.com
