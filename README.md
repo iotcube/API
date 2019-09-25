@@ -4,7 +4,7 @@ This document is an outline and usage document of "IoTcube API". This document i
 ## Getting Started with API
 Currently, the initial version of IoTcube API can receive vulnerability information in software by sending ".hidx file" (generated through *hmark*, <https://github.com/iotcube/hmark>) through **POST** method to our API address.
 
-### whitebox
+### hmark
 ---
 **Address to send POST request**
 >**https://<span></span>iotcube.net/api/wf1**
@@ -30,7 +30,7 @@ Currently, the initial version of IoTcube API can receive vulnerability informat
    + **diff** - All commit information for this vulnerability.
    + **patch** - Patch information of the vulnerable code (*'Dec. 2018 ADDED by Seunghoon Woo'*).
   
-### blackbox
+### pfuzz
 ---
 **Address to send POST request**
 >**https://<span></span>iotcube.net/api/bf2**
@@ -49,7 +49,7 @@ Currently, the initial version of IoTcube API can receive vulnerability informat
    
 ## Result (JSON)
 
-### whitebox
+### hmark
 ---
 (*'Dec. 2018 MODIFIED by Seunghoon Woo'* - ADDED "patch").
 ```
@@ -75,7 +75,7 @@ Currently, the initial version of IoTcube API can receive vulnerability informat
   }
 ] 
 ```
-### blackbox
+### pfuzz
 ---
 ```
 {
@@ -102,6 +102,6 @@ See *'example'* directory.
 
 About
 -----
-This document and code is authored and maintained by Seunghoon Woo (Whitebox) and Gangmo Seong (Blackbox).
+This document and code is authored and maintained by Seunghoon Woo (hmark) and Gangmo Seong (pfuzz).
 >seunghoonwoo@<span></span>korea.ac.kr  
 >geldkang@<span></span>korea.ac.kr
