@@ -17,10 +17,9 @@ function CallAPI($method, $url, $header, $data)
   curl_close($curl);
   return $result;
 }
-
-$file_name = "/filepath/to/hidxfile.hidx";
+$file_name = "/filepath/to/bundle.zip";
 $header = array ("User-Agent: your user-agent value");
 $data = array ("file" => curl_file_create (realpath($file_name)));
-$url = 'https://iotcube.net/api/wf1';
+$url = 'https://iotcube.net/api/bf2';
 $resp = CallAPI ("POST", $url, $header, $data);
 ?>
